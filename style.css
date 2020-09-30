@@ -5,6 +5,7 @@
     padding: 8px 0;
     min-height: 40px;
     border-bottom: 1px solid rgb(229, 232, 237);
+    display: none;
 }
 
 .Button-link {
@@ -47,8 +48,12 @@
 
 .web {
     color: #5b6987;
-    padding-left: 25px;
+    padding: 10px;
     font-size: 12px;
+}
+
+.web.margin{
+    margin-right: 28px;
 }
 
 .Insert-New:hover, .Siti > .web:hover, .Button-link:hover {
@@ -64,22 +69,22 @@
 
 }
 
+.navbar-brand {
+    padding: 15px 25px;
 
-a.navbar-brand {
-    padding: 16px 30px;
-    margin-right: 50px;
 }
 
 .css-ds5pxo {
     max-height: 28px;
-    width: 172px;
-    line-height: 24px;
+    max-width: 172px;
+
 }
 
 #bs-example-navbar-collapse-1 .nav.navbar-nav > li > a.change-list {
     color: #031B4F;
     font-size: 14px;
-    padding-top: 22px;
+    padding: 15px 10px;
+    line-height: 30px;
 
 }
 
@@ -110,9 +115,39 @@ a.change-list {
     margin: 15px 28px 0 0;
 }
 
-@media screen and (max-width 992px) {
+
+@media screen and (min-width: 768px) {
+
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .collapse.navbar-collapse {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
     .navbar-top {
+        display: block;
+    }
+
+    .navbar-header {
+        float: left;
+    }
+
+    .navbar-toggle {
         display: none;
+    }
+
+    .collapse.navbar-collapse {
+        display: block !important;
     }
 
 }
