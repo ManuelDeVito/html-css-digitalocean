@@ -1,0 +1,118 @@
+
+.navbar-top {
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 8px 0;
+    min-height: 40px;
+    border-bottom: 1px solid rgb(229, 232, 237);
+}
+
+.Button-link {
+    padding-left: 10px;
+}
+
+.Button-New {
+    background-color: rgb(0,215,210);
+    color: rgb(3,27,78);
+    border-radius: 5px;
+    border: 0;
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 9px;
+    line-height: 1px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.Insert-New {
+    color: #5b6987;
+    font-size: 12px;
+    display: inline-block;
+    margin: 0;
+}
+
+.fa-angle-right {
+    margin-left: 5px;
+}
+
+.Siti-list {
+    margin-bottom: 0;
+}
+
+.Siti {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.web {
+    color: #5b6987;
+    padding-left: 25px;
+    font-size: 12px;
+}
+
+.Insert-New:hover, .Siti > .web:hover, .Button-link:hover {
+    color: #006aff;
+    text-decoration: none;
+}
+
+.navbar.navbar-default {
+    background-color: white;
+    height: 65px;
+    border-radius: 0;
+    margin: 0;
+
+}
+
+
+a.navbar-brand {
+    padding: 16px 30px;
+    margin-right: 50px;
+}
+
+.css-ds5pxo {
+    max-height: 28px;
+    width: 172px;
+    line-height: 24px;
+}
+
+#bs-example-navbar-collapse-1 .nav.navbar-nav > li > a.change-list {
+    color: #031B4F;
+    font-size: 14px;
+    padding-top: 22px;
+
+}
+
+a.change-list {
+    color: rgb(3, 27, 79);
+
+}
+
+.fa-angle-down {
+    margin-left: 5px;
+}
+
+.button-nav {
+    color: #006aff;
+    background-color: transparent;
+    border: 1px solid #006aff;
+    border-radius: 5px;
+    margin: 15px 16px 0 0;
+    padding: 5px 10px;
+}
+
+.button-nav-right {
+    color: white;
+    background-color: #006aff;
+    border: 1px solid #006aff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 15px 28px 0 0;
+}
+
+@media screen and (max-width 992px) {
+    .navbar-top {
+        display: none;
+    }
+
+}
