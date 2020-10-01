@@ -93,6 +93,7 @@ a.change-list {
 
 }
 
+
 .fa-angle-down {
     margin-left: 5px;
 }
@@ -104,6 +105,11 @@ a.change-list {
     border-radius: 5px;
     margin: 15px 16px 0 0;
     padding: 5px 10px;
+}
+
+.button-nav:hover {
+    background-color: #006aff;
+    color: white;
 }
 
 .button-nav-right {
@@ -121,19 +127,42 @@ a.change-list {
     background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
 }
 
+a.link-Free {
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(3, 27, 78);
+    border-radius: 6px;
+    margin-top: 40px;
+
+}
+
+a.link.Free:hover {
+    background-color: rgb(21, 205, 114);
+}
+
+p.text-link-top {
+    font-size: 16px;
+    margin: 10px;
+    padding: 3px;
+    text-align: center;
+    color: white;
+}
+
 .Welcome-developer {
-    float: left;
+    padding-top: 150px;
+    padding-bottom: 300px;
 }
 
 .title-Welcome {
-
+    margin: 0;
     font-size: 58px;
     color: white;
     text-transform: uppercase;
 }
 
 .Subtitle-Welcome {
-
+    margin: 0;
     font-size: 24px;
     color: white;
     margin-top: 20px;
@@ -141,9 +170,100 @@ a.change-list {
 
 }
 
-.box-Deploy {
-    float: left;
+.box {
+    padding-top: 80px;
 }
+
+.box-top-deploy {
+    background-color: rgb(243, 245, 249);
+    padding: 16px 0 12px;
+    margin: 0;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.title-box-top-deploy {
+    color: #031B4E;
+    font-size: 18px;
+
+}
+
+.box-center-deploy {
+
+    background-color: white;
+    padding: 32px;
+}
+
+.input-box-center-deploy {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 8px;
+    border: 1px solid rgb(229, 232, 237);
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.button-box-center-deploy {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 106, 255);
+    border: 1px solid rgb(0, 106, 255);
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+}
+
+.box-bottom-deploy {
+    background-color: white;
+    padding: 32px;
+    border-top: 1px solid rgb(243, 245, 249);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.button-box-bottom-deploy-left {
+    background: white;
+    color: #0069FF;
+    padding: 13px 25px 16px;
+    font-size: 16px;
+    border-color: #0069FF;
+    border-radius: 6px;
+
+}
+
+.img-position {
+    margin-right: 6px;
+}
+
+.button-box-bottom-deploy-right {
+    padding: 15px;
+    float: right;
+    background-color: white;
+    border-color:  #0069FF;
+    border-radius: 6px;
+}
+
+.color-hover:hover {
+    color: black;
+}
+
+.box-terminal {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    margin: 12px 0;
+}
+
+.terms {
+    color: white;
+}
+
+.terms:hover {
+    border-bottom: 1px dotted rgba(255,255,255,0.5);
+    text-decoration: none;
+    color: white;
+}
+
 
 
 @media screen and (min-width: 768px) {
@@ -179,5 +299,9 @@ a.change-list {
     .collapse.navbar-collapse {
         display: block !important;
     }
+
+}
+
+@media screen and (min-width: 1200px) {
 
 }
