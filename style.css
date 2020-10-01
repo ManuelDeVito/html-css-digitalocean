@@ -125,6 +125,7 @@ a.change-list {
     background-color: rgb(0, 105, 255);
     background-size: cover;
     background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+    padding-bottom: 150px;
 }
 
 a.link-Free {
@@ -151,7 +152,8 @@ p.text-link-top {
 
 .Welcome-developer {
     padding-top: 150px;
-    padding-bottom: 300px;
+    text-align: left;
+
 }
 
 .title-Welcome {
@@ -172,6 +174,7 @@ p.text-link-top {
 
 .box {
     padding-top: 80px;
+    max-width: 370px;
 }
 
 .box-top-deploy {
@@ -264,6 +267,65 @@ p.text-link-top {
     color: white;
 }
 
+#section-loghi.section-loghi-partner {
+    background-color: rgb(243, 245, 249);
+    padding: 64px 24px;
+}
+
+.title-loghi {
+    font-size: 16px;
+    color: #5B6987;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.img-partner {
+    margin: 0 31px;
+
+}
+
+a.link-partner {
+    
+    color: #0069FF;
+    font-size: 16px;
+    text-decoration: none;
+
+
+}
+
+a.link-partner:hover {
+    color: #1633ff;
+    text-decoration: none;
+
+}
+
+#section-scale {
+    height: 1000px;
+    padding: 120px 24px;
+}
+
+.title-section-scale {
+    font-size: 36px;
+    color: #031B4E;
+    text-align: center;
+}
+
+.subtitle-section-scale {
+    color: #5b6987;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 191px 0;
+}
+
+
+@media screen and (min-width: 300px) {
+
+    .Welcome-developer {
+        text-align: center;
+
+    }
+}
 
 
 @media screen and (min-width: 768px) {
@@ -280,6 +342,8 @@ p.text-link-top {
     .collapse.navbar-collapse {
         display: none !important;
     }
+
+
 }
 
 @media screen and (min-width: 992px) {
@@ -302,6 +366,10 @@ p.text-link-top {
 
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 993px) {
 
+    .Welcome-developer {
+        text-align: left;
+
+    }
 }
